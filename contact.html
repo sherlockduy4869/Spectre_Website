@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="UTF-8">
+        <title>
+            Spectre Vietnam
+        </title>
+        
+        <link rel="stylesheet" href="./Resource/css/styleContact.css">
+        <link rel="stylesheet" href="./Resource/css/query.css">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    </head>
+    <body class="bodyContact">
+        <section class="contact-page">
+            <nav>
+                <a href="index.html" class="logo"><img src="./Resource/img/logo.png" alt="Logo"></a>
+                <div class="nav-links">
+                    <i class="fa-solid fa-xmark" id="btnHide"></i>
+                    <ul>
+                        <li>
+                            <a href="./index.html">HOME</a>
+                            <a href="./about.html">ABOUT</a>
+                            <a href="">PRODUCT</a>
+                            <a href="./contact.html">CONTACT</a>
+                        </li>
+                    </ul>
+                </div>
+                <i class="fa-solid fa-bars" id="btnShow"></i>
+            </nav>
+            <div class="alert-success">
+                <span>Message Sent! Thank you for contacting us.</span>
+            </div>
+        
+            <div class="alert-error">
+                <span></span>
+            </div>
+        
+            <div class="contact-section">
+                <div class="contact-info">
+                    <div><i class="fa-solid fa-location-dot"></i>Address, City, Country</div>
+                    <div><i class="fa-solid fa-location-dot"></i>contact@gmail.com</div>
+                    <div><i class="fa-solid fa-location-dot"></i>+84 905988777</div>
+                    <div><i class="fa-solid fa-location-dot"></i>Mon-Fri 08:00 AM to 05:00 PM</div>
+                </div>
+                <div class="contact-form">
+                    <h2>Contact Us</h2>
+                    <form class="contact" method="post">
+                        <input type="text" name="name" class="text-box name" placeholder="Your Name" required/>
+                        <input type="email" name="email" class="text-box email" placeholder="Your Email" required/>
+                        <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+                    </form>
+                    <button class="send-btn">Send</button>
+                </div>
+            </div>
+        </section>
+        <script src="./Resource/js/script.js"></script>
+    </body>
+</html>
