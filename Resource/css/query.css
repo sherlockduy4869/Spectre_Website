@@ -55,6 +55,7 @@
     }
 
     .gallery-section .image{
-        flex: 33.33%;
+        flex: 50%;
     }
+
 }

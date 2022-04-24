@@ -169,6 +169,6 @@ nav .fa-solid{
     transition: 0.4s;
 }
 
-.gallery-section .image:hover img{
+.gallery-section .image img:hover {
     transform: scale(1.4) rotate(15deg);
 }

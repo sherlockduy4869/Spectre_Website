@@ -68,3 +68,6 @@ function validicationEmail(){
         return false; 
     }
 }
+
+//For gallery page
+
