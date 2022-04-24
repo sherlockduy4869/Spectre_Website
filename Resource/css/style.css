@@ -123,11 +123,10 @@ nav .fa-solid{
 
 /*HOME-PRODUCT AREA*/
 .product{
-    width: 80%;
+    width: 90%;
     margin: auto;
     text-align: center;
     padding-top: 100px;
-    
 }
 
 h1{
@@ -175,7 +174,7 @@ h3{
 
 /*MEMBER AREA*/
 .members{
-    width: 80%;
+    width: 90%;
     margin: auto;
     text-align: center;
     padding-top: 50px;
