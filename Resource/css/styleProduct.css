@@ -43,8 +43,10 @@
 
 .image{
     border-radius: 8px;
-    max-width: 400px;
-    height: 600px;
+    max-width: auto;
+    height: auto;
+    filter: brightness(90%);
+    width: 80%;
     filter: brightness(80%);
 }
 
