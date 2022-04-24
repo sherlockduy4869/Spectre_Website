@@ -53,4 +53,8 @@
     .contact-form .text-box{
         width: 100%;
     }
+
+    .gallery-section .image{
+        flex: 33.33%;
+    }
 }

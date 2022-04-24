@@ -137,3 +137,38 @@ nav .fa-solid{
     margin: auto;
     padding: 0 20px;
 }
+
+.gallery-inner-width h1{
+    text-align: center;
+    text-transform: uppercase;
+    color: #333;
+}
+
+.gallery-inner-width-border{
+    width: 100%;
+    height: 4px;
+    background: #333;
+    margin: 60px auto;
+}
+
+.gallery-inner-width-gallery{
+    display: flex;
+    flex-wrap: wrap-reverse;
+    justify-content: center;
+}
+
+.gallery-section .image{
+    flex: 25%;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.gallery-section .image img{
+    width: 100%;
+    height: 100%;
+    transition: 0.4s;
+}
+
+.gallery-section .image:hover img{
+    transform: scale(1.4) rotate(15deg);
+}
