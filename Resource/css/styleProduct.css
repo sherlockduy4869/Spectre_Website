@@ -201,8 +201,3 @@ nav{
     }
 }
 
-@media screen and (max-width: 350px) {
-    .app__products-title {
-        font-size: 20px;
-    }
-}
