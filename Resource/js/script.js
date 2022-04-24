@@ -1,4 +1,4 @@
-//For home page
+//For nav
 const btnHideMenu = document.querySelector('#btnHide');
 const btnShowMenu = document.querySelector('#btnShow');
 const navLinks = document.querySelector('.nav-links');
@@ -12,7 +12,7 @@ btnHideMenu.addEventListener("click", function(){
     navLinks.style.right = "-200px";
 })
 
-//For contact page
+//For validication contact
 
 const btnSubmit = document.querySelector(".send-btn");
 const userName = document.querySelector(".name");
