@@ -22,8 +22,6 @@
     justify-content: space-between;
 }
 
-/*ABOUT AREA*/
-
 /*NAV AREA*/
 .logo img{
     width: 60px;
@@ -122,4 +120,20 @@ nav .fa-solid{
 
 .members-col:hover{
     box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
+}
+
+/*GALLERY AREA*/
+
+.gallery-section{
+    width: 100%;
+    padding: 60px 0;
+    background: #f1f1f1;
+
+}
+
+.gallery-inner-width{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 20px;
 }
