@@ -1,23 +1,18 @@
-/*DEFAULT SETUP*/
-*{
-    padding: 0px;
-    margin: 0px;
-    box-sizing: border-box;
-    font-family: "Poppins", sans-serif;
+* {
+    margin: 0;
+    padding: 0;
 }
 
 .product-page{
     min-height: 100vh;
     width: 100%;
-    position: relative;
     background-color: black;
     background-position: center;
     background-size: cover;
-    overflow: hidden;
     
 }
 
-.main-title {
+.app__products-title {
     color: white;
     font-size: 60px;
     font-weight: bold;
@@ -26,33 +21,38 @@
     text-align: center;
     margin-bottom: 50px;
 }
-.container{
+
+.app__products-list {
     display: flex;
-    justify-content: space-between;
-    margin-bottom: 150px;
+    align-items: center;
+    width: 80%;
+    height: auto;
+    margin: auto;
 }
 
-.product {
-    flex-basis: 24%;
-    height: 50vh;   
+.products__container{
+    display: flex;
+    width: 100%;
+}
+
+.container__item { 
     padding: 2rem 1.1rem 2rem ;
-    /* margin: 5px; */
     position: relative;
     text-align: center;
+    width: 30%;
 }
 
-.image{
+.product__image{
     border-radius: 8px;
-    max-width: auto;
-    height: auto;
+    width: 100%;
+    height: 100%;
     filter: brightness(90%);
-    width: 80%;
     filter: brightness(80%);
 }
 
-.title {
+.product__title {
     position: absolute;
-    top: 15%;
+    top: 20%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
@@ -63,9 +63,9 @@
     text-align: center;
 }  
 
-.description{
+.product__desc{
     position: absolute;
-    top: 22%;
+    top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
@@ -73,7 +73,7 @@
     font-size: 15px;  
     color: white;  
 }
-.btn {
+.product__btn {
     position: absolute;
     transition: .5s ease;
     opacity: 0;
@@ -96,22 +96,22 @@
     text-decoration: none;
 }
 
-.btn:hover{
+.product__btn:hover{
     background: black;
     color: white;
 }
 
-.product:hover .image {
+.container__item:hover .product__image {
     opacity: 0.3;
   }
 
-.product:hover .btn {
+.container__item:hover .product__btn {
     opacity: 1;
 }
-.product:hover .title{
+.container__item:hover .product__title{
     opacity: 0.5;
 }
-.product:hover .description{
+.container__item:hover .product__desc{
     opacity: 0.5;
 }
 
@@ -159,4 +159,50 @@ nav{
 
 .nav-links ul li a:hover::after{
     width: 100%;
+}
+
+@media screen and (max-width: 1400px) {
+    .container__item {
+        width: 35%;
+    }
+
+    .app__products-list {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width:1000px) {
+
+    .app__products-list {
+        width: 75%;
+    }
+
+    .products__container {
+        flex-direction: column;
+    }
+
+    .container__item {
+        width: 100%;
+        padding: 0;
+        margin-bottom: 50px;
+        height: 400px;
+    }
+
+    .container__item .product__image {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .app__products-title {
+        font-size: 40px;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .app__products-title {
+        font-size: 20px;
+    }
 }
