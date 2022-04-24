@@ -203,3 +203,55 @@ h3{
 .members-col:hover{
     box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
 }
+/*TESTIMONIALS AREA*/
+.testimonials{
+    padding: 40px 0;
+    background: #f1f1f1;
+    color: #434343;
+    text-align: center;
+}
+
+.testimonials-inner{
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 20px;
+    overflow: hidden;
+}
+
+.testimonials-inner .border{
+    width: 160px;
+    height: 5px;
+    background: #6ab04c;
+    margin: 26px auto;
+}
+
+.testimonials-row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.testimonials-row-col{
+    flex: 33.33%;
+    max-width: 33.33%;
+    box-sizing: border-box;
+    padding: 15px;
+}
+
+.testimonials-row-col-testimonial{
+    background: #fff;
+    padding: 30px;
+
+}
+
+.testimonials-row-col-testimonial img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.estimonials-row-col-testimonial-name{
+    font-size: 20px;
+    text-transform: uppercase;
+    margin: 20px 0;
+}
