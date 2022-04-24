@@ -1,3 +1,4 @@
+/*PRODUCT AREA*/
 * {
     margin: 0;
     padding: 0;
@@ -161,6 +162,7 @@ nav{
     width: 100%;
 }
 
+/*RESPONSIVE AREA*/
 @media screen and (max-width: 1400px) {
     .container__item {
         width: 35%;
