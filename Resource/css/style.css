@@ -137,10 +137,10 @@ nav .fa-solid{
 }
 
 .product-area .row{
+
     margin: auto;
     width: 90%;
     text-align: center;
-
 }
 
 h1{
@@ -170,6 +170,7 @@ p{
     padding: 20px 12px;
     box-sizing: border-box;
     transition: 0.5s;
+    margin-top: 50px;
 }
 
 .product-col img{
