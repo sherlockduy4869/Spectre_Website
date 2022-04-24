@@ -172,3 +172,34 @@ h3{
 .product-col:hover{
     box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
 }
+
+/*MEMBER AREA*/
+.members{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.members-col{
+    flex-basis: 24%;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    position: relative;
+    overflow: hidden;
+    transition: 0.5s;
+}
+
+.members-col img{
+    width: 100%;
+    display: block;
+}
+
+.members-col p{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.members-col:hover{
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
+}
