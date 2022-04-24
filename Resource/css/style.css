@@ -27,13 +27,16 @@
     width: 180px;
     text-align: center; 
     transition: all 0.3s;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
 }
 .btn:hover,
 .btn:active{
     background-color: #d35400;
 }
 
+.intro{
+    font-size: 16px;
+}
 /*NAV AREA*/
 .logo img{
     width: 60px;
