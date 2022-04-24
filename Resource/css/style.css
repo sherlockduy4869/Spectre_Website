@@ -203,6 +203,7 @@ h3{
 .members-col:hover{
     box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
 }
+
 /*TESTIMONIALS AREA*/
 .testimonials{
     padding: 40px 0;
@@ -255,7 +256,6 @@ h3{
     text-transform: uppercase;
     margin: 20px 0;
 }
-
 /*CONTACT AREA*/
 
 .contact-area{
@@ -389,6 +389,7 @@ h3{
 
     visibility: hidden;
 }
+
 /*FOOTER AREA*/
 
 footer{
