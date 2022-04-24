@@ -137,25 +137,6 @@ body{
     visibility: hidden;
 }
 
-/*RESPONSIVE AREA*/
-@media screen and (max-width: 600px){
-    .contact-section{
-        flex-direction: column;
-    }
-
-    .contact-info, .contact-form{
-        margin: 30px 50px;
-    }
-
-    .contact-form h2{
-        font-size: 30px;
-    }
-
-    .contact-form .text-box{
-        width: 100%;
-    }
-}
-
 /*NAV AREA*/
 .logo img{
     width: 60px;
