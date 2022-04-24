@@ -1,0 +1,160 @@
+/*DEFAULT SETUP*/
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+.product-page{
+    min-height: 100vh;
+    width: 100%;
+    position: relative;
+    background-color: black;
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+    
+}
+
+.main-title {
+    color: white;
+    font-size: 60px;
+    font-weight: bold;
+    font-family: "Poppins", sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 150px;
+}
+
+.product {
+    flex-basis: 24%;
+    height: 50vh;   
+    padding: 2rem 1.1rem 2rem ;
+    /* margin: 5px; */
+    position: relative;
+    text-align: center;
+}
+
+.image{
+    border-radius: 8px;
+    max-width: 400px;
+    height: 600px;
+    filter: brightness(80%);
+}
+
+.title {
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: "Poppins", sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+}  
+
+.description{
+    position: absolute;
+    top: 22%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-size: 15px;  
+    color: white;  
+}
+.btn {
+    position: absolute;
+    transition: .5s ease;
+    opacity: 0;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+    font-size: 1rem;
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+    background: white;
+    color: black;
+    outline: 0;
+    border-radius: 25px;
+    padding: 0.7rem 1rem;
+    border: 0;
+    margin-top: 1rem;
+    cursor: pointer;  
+    text-decoration: none;
+}
+
+.btn:hover{
+    background: black;
+    color: white;
+}
+
+.product:hover .image {
+    opacity: 0.3;
+  }
+
+.product:hover .btn {
+    opacity: 1;
+}
+.product:hover .title{
+    opacity: 0.5;
+}
+.product:hover .description{
+    opacity: 0.5;
+}
+
+
+
+/*NAV AREA*/
+.logo img{
+    width: 60px;
+}
+
+nav{
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links{
+    flex: 1;
+    text-align: right;
+}
+
+.nav-links ul li a{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+
+.nav-links ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.nav-links ul li a::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #f44336;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+
+.nav-links ul li a:hover::after{
+    width: 100%;
+}
